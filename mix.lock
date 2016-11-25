@@ -1,0 +1,11 @@
+%{"certifi": {:hex, :certifi, "0.7.0"},
+  "epcap": {:git, "https://github.com/msantos/epcap.git", "f796f3d80ce15f1b97cba57cb08cb183cbf1fe5f", []},
+  "hackney": {:hex, :hackney, "1.6.3"},
+  "httpoison": {:hex, :httpoison, "0.10.0"},
+  "idna": {:hex, :idna, "1.2.0"},
+  "metrics": {:hex, :metrics, "1.0.1"},
+  "mimerl": {:hex, :mimerl, "1.0.2"},
+  "pkt": {:git, "https://github.com/msantos/pkt.git", "96d256fbefd7856be8af2e519e16943a63536d49", [branch: "master"]},
+  "procket": {:git, "git://github.com/msantos/procket.git", "eddc2d965f9b14abd06677cb2d1cf9c2ee9759ee", [tag: "0.5.1"]},
+  "ssl_verify_fun": {:hex, :ssl_verify_fun, "1.1.1"},
+  "wierl": {:git, "https://github.com/msantos/wierl.git", "8f995c49e73fc6acfe2066cab97d7042ab302e54", []}}

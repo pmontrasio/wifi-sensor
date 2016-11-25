@@ -1,0 +1,16 @@
+[Unit]
+Description=Catch the WiFi packets and count the unique mac addresses
+After=network.target auditd.service
+
+[Service]
+User=pi
+WorkingDirectory=/home/pi/codemotion/sensor
+ExecStartPre=/home/pi/codemotion/sensor/systemd/exec_start_pre
+ExecStart=/home/pi/codemotion/sensor/systemd/exec_start
+ExecStop=/home/pi/codemotion/sensor/systemd/exec_stop
+KillMode=process
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
+

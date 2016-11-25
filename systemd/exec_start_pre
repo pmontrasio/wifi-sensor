@@ -1,0 +1,4 @@
+#!/bin/bash
+
+test -p /home/pi/codemotion/sensor/pipe || mkfifo /home/pi/codemotion/sensor/pipe
+

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+export HOME="/home/pi"
+export PATH="$HOME/elixir/bin:$PATH"
+
+$HOME/elixir/bin/mix sensor wlan1 https://xxxxxxxxxxx.execute-api.eu-west-1.amazonaws.com/dev/countersReceiver
